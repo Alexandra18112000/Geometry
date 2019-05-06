@@ -13,6 +13,6 @@ $(OD)main.o: $(SD)main.cpp
 $(OD)perimetr.o: $(SD)perimetr.cpp
 	$(CC) $(CFLAGS) -c -o $(OD)perimetr.o $(SD)perimetr.cpp -lm
 $(OD)area.o: $(SD)area.cpp
-	$(CC) $(CFLAGS) -c -o $(OD)square.o $(SD)area.cpp -lm
+	$(CC) $(CFLAGS) -c -o $(OD)area.o $(SD)area.cpp -lm
 clean:
 	rm -rf $(EXECUTABLE) $(OD)*.o
