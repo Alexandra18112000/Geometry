@@ -21,8 +21,3 @@ int main()
     cout << endl << "Perimetr: " << p << " Ploshad: " << s;
     return 0;
 }
-
-
-
-
-
