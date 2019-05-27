@@ -32,4 +32,4 @@ $(OTD)square.o: $(SD)square.c $(SD)foo.h
 $(OTD)cross.o: $(SD)cross.c $(SD)foo.h
 	$(CC) $(CFLAGS) -I ctests -I src -c $(SD)cross.c -o $(OTD)cross.o  -lm
 clean:
-rm -rf $(OD)*.o $(EXECUTABLE) $(EXECUTABLE_2)
+	rm -rf $(OD)*.o $(EXECUTABLE) $(EXECUTABLE_2)
